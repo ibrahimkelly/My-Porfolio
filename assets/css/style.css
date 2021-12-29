@@ -366,6 +366,10 @@ h1, h2, h3, h4, h5, h6 {
   background: url("../img/eagle2.png") top right rgba(199, 199, 199, 0.6);
   background-size: cover;
 }
+
+.add-shadow{
+  box-shadow: 1px 1px 1px #000, 1px 1px 1px yellow;
+}
 #hero .container {
   padding-top: 70px;
   position: relative;
@@ -563,13 +567,13 @@ section {
   font-style: normal;
 }
 .skills .progress-bar-wrap {
-  background: #f3f3f3;
+  background: #000;
 }
 .skills .progress-bar {
   width: 1px;
   height: 10px;
   transition: 0.9s;
-  background-color: #34b7a7;
+  background-color: yellow;
 }
 
 /*--------------------------------------------------------------
