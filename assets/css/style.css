@@ -139,7 +139,7 @@ h1, h2, h3, h4, h5, h6 {
   padding-right: 15px;
 }
 .header-social-links a {
-  color: #6f6f6f;
+  color: #eee;
   padding-left: 6px;
   display: inline-block;
   line-height: 0px;
@@ -147,7 +147,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 16px;
 }
 .header-social-links a:hover {
-  color: #34b7a7;
+  color: yellow;
 }
 
 /*--------------------------------------------------------------
@@ -266,7 +266,7 @@ h1, h2, h3, h4, h5, h6 {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #222222;
+  color: yellow;
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -380,7 +380,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #hero h2 {
   color: #eee;
-  text-shadow: 1px 1px 1px #000;
+  text-shadow: 1px 1px 1px #000, 1px 1px 1px green;
   margin: 10px 0 0 0;
   font-size: 22px;
 }
