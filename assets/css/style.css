@@ -4,12 +4,13 @@ body {
 }
 
 a {
-  color: #34b7a7;
+  color: blue;
   text-decoration: none;
 }
 
 a:hover {
-  color: #51cdbe;
+  color: blue;
+  text-shadow: 1px 1px 1px #000;
   text-decoration: none;
 }
 
@@ -45,7 +46,7 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #34b7a7;
+  border: 6px solid yellow;
   border-top-color: #dcf5f2;
   border-radius: 50%;
   width: 60px;
