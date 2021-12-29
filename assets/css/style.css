@@ -198,7 +198,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 2px;
   bottom: -5px;
   left: 0;
-  background-color: #34b7a7;
+  background-color: yellow;
   visibility: hidden;
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
