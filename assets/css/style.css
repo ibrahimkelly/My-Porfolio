@@ -93,8 +93,12 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 0;
 }
 .back-to-top:hover {
-  background: #49cbbb;
-  color: #fff;
+  background: #000;
+}
+.back-to-top i:hover {
+  font-size: 24px;
+  color: yellow;
+  line-height: 0;
 }
 .back-to-top.active {
   visibility: visible;
@@ -377,6 +381,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   line-height: 56px;
   color: yellow;
+  text-shadow: 1px 1px 1px #000;
 }
 #hero h2 {
   color: #eee;
@@ -399,7 +404,8 @@ h1, h2, h3, h4, h5, h6 {
   background: yellow;
 }
 #hero .btn-about:hover {
-  background: #3dc8b7;
+  background: #000;
+  color: yellow;
 }
 @media (min-width: 1024px) {
   #hero {
