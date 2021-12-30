@@ -419,9 +419,11 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 @media (max-width: 992px) {
+  .index-profile{
+    width: 313px;
+  }
   #hero:before {
     content: "";
-    background: rgba(201, 201, 201, 0.8);
     position: absolute;
     bottom: 0;
     top: 0;
