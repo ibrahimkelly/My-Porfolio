@@ -2,6 +2,7 @@ body {
   font-family: "Open Sans", sans-serif;
   color: #000;
   background-color: #eee;
+  font-size: 1.1em;
 }
 
 a {
@@ -1129,7 +1130,7 @@ section {
 --------------------------------------------------------------*/
 #footer {
   padding: 30px 0;
-  color: #eee;
+  color: yellow;
   font-size: 14px;
   text-align: center;
 }
