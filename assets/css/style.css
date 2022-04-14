@@ -874,8 +874,8 @@ section {
   border-radius: 50px;
 }
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-  color: #fff;
-  background: #34b7a7;
+  color: #000;
+  background: yellow;
 }
 .portfolio #portfolio-flters li:last-child {
   margin-right: 0;
@@ -1104,16 +1104,16 @@ section {
   padding: 10px 12px;
 }
 .contact .php-email-form button[type=submit] {
-  background: #000;
+  background: yellow;
   border: 0;
   padding: 10px 30px 12px 30px;
-  color: yellow;
+  color: #000;
   transition: 0.4s;
   border-radius: 50px;
 }
 .contact .php-email-form button[type=submit]:hover {
-  background: yellow;
-  color: #000;
+  background: #000;
+  color: yellow;
 }
 @-webkit-keyframes animate-loading {
   0% {
