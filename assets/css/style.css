@@ -398,9 +398,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 #hero h2 {
   color: #eee;
-  text-shadow: 1px 1px 1px #000;
+  /* text-shadow: 1px 1px 1px #000; */
   margin: 10px 0 0 0;
   font-size: 22px;
+  font-weight: bold;
 }
 #hero .btn-about {
   font-family: "Raleway", sans-serif;
@@ -437,9 +438,9 @@ h1, h2, h3, h4, h5, h6 {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url("../img/photo.jpg") #fff;
+    background: url("../img/Ikelly.png") #fff no-repeat;
     background-position: center center;
-    background-size: cover;
+    /* background-size: cover; */
   }
 
   .index-profile{
