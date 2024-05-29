@@ -667,6 +667,10 @@ section {
   color: orange;
 }
 
+.t-orange {
+  color: orange;
+}
+
 .about .content p:last-child {
   margin-bottom: 0;
 }
