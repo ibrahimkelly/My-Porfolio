@@ -434,9 +434,8 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/eagle2.png") no-repeat;
+  background: url("../img/eagle2.png") no-repeat center center;
   background-size: cover;
-  background-position: center center;
 }
 
 .add-shadow {
@@ -508,8 +507,10 @@ h6 {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url("../img/IKelly3.png") no-repeat;
-    background-size: contain;
+    background: url("../img/octagon.png") no-repeat center center;
+    background-size: cover;
+    /* background: url("https: //github.com/ibrahimkelly.png") no-repeat;
+    background-size: contain; */
     background-position: center center;
     animation: zoom-in 2s ease-in-out forwards;
   }
@@ -664,6 +665,10 @@ section {
 .about .content ul i {
   font-size: 20px;
   padding-right: 2px;
+  color: orange;
+}
+
+.t-orange {
   color: orange;
 }
 
