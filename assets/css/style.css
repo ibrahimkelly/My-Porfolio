@@ -509,10 +509,12 @@ h6 {
     justify-content: center;
     background: url("../img/octagon.png") no-repeat center center;
     background-size: cover;
+    background-position: center center;
     /* background: url("https: //github.com/ibrahimkelly.png") no-repeat;
     background-size: contain; */
     background-position: center center;
     animation: zoom-in 2s ease-in-out forwards;
+    padding: 20px;
   }
 
   @keyframes zoom-in {
